@@ -1,0 +1,39 @@
+.product-info-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    background-color: #f7fafc;
+  }
+  
+  .product-brand {
+    color: #64748b;
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .product-title {
+    color: #001718;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product-price {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+  }
+  
+  .product-mrp {
+    color: #64748bb3;
+    text-decoration: line-through;
+  }
+  
+  .product-discount {
+    color: #7e59e7;
+  }
+  

@@ -1,0 +1,37 @@
+.banner-container {
+  margin-bottom: 0.5rem;
+}
+
+.relative {
+  position: relative;
+}
+
+.image-container {
+  width: 100%;
+  height: 36vh;
+  overflow: hidden;
+}
+
+.banner-image {
+  object-fit: cover;
+  width: 100%;
+}
+
+.banner-text-container {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 16.36%, rgb(38, 38, 30) 242.73%);
+}
+
+.banner-text {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 1.875rem; /* equivalent to text-3xl */
+  font-style: italic;
+}

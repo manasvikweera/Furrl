@@ -1,0 +1,38 @@
+.navbar {
+    background-color: white;
+    padding: 0.75rem;
+  }
+  
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .logo-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .logo {
+    cursor: pointer;
+  }
+  
+  .links {
+    display: flex;
+    gap: 0.25rem;
+  }
+  
+  .link {
+    padding: 0.25rem;
+    border-radius: 9999px;
+  }
+  
+  .link:active {
+    background-color: #e2e8f0; /* gray-200 */
+  }
+  

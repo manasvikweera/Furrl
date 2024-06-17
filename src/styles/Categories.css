@@ -1,0 +1,32 @@
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.text-description {
+  color: #64748b;
+  font-size: 0.75rem;
+  font-style: italic;
+}
+
+.categories-container {
+  display: flex;
+  width: 100%;
+  overflow-x: auto;
+  gap: 0.5rem;
+}
+
+.category-button {
+  white-space: nowrap;
+  border-radius: 9999px;
+  padding: 0.25rem 1rem;
+  font-size: 0.875rem;
+}
+
+.category-button.active {
+  background-color: #7e59e7;
+  color: white;
+}
+
+.category-button.inactive {
+  border: 1px solid #cbd5e1;
+}
